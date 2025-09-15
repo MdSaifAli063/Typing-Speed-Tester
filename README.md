@@ -81,7 +81,7 @@ Notes:
 ---
 ## 🎛️ Customization
 
-### Change the Background Gradient
+# Change the Background Gradient
 
 In `style.css`, ensure the body background is set (towards the end of the file to override earlier rules):
 css
