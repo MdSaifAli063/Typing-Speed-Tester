@@ -47,7 +47,7 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
 
 ---
 
-##📸 Screenshots
+## 📸 Screenshots
 You can add screenshots to the assets/ folder and reference them here:
 
 Typing View
