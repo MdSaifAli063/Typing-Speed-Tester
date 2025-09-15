@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Typing Speed Tester</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- System-safe stack with a mono fallback for typing area -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Typing Speed Test</h1>
+      <div class="header-actions">
+        <button id="new-text-button" class="btn btn-ghost" aria-label="Load a new text">New Text</button>
+        <button id="pause-resume-button" class="btn btn-ghost" aria-label="Pause or resume test" disabled>Pause</button>
+        <button id="reset-button" class="btn btn-ghost" aria-label="Reset test">Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls-card card">
+      <div class="controls-grid">
+        <div class="control">
+          <label for="duration-select">Duration</label>
+          <select id="duration-select" aria-label="Select test duration">
+            <option value="15">15s</option>
+            <option value="30" selected>30s</option>
+            <option value="60">60s</option>
+            <option value="120">120s</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="source-select">Text Source</label>
+          <select id="source-select" aria-label="Select text source">
+            <option value="quotes" selected>Quotes</option>
+            <option value="pangrams">Pangrams</option>
+            <option value="code">Code-like</option>
+            <option value="lorem">Lorem</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="difficulty-select">Difficulty</label>
+          <select id="difficulty-select" aria-label="Select difficulty">
+            <option value="normal" selected>Normal</option>
+            <option value="hard">Hard (no backspace)</option>
+          </select>
+        </div>
+        <div class="control control-wide tips">
+          <span class="tip">Tip: Press Enter to start. Esc to reset. Space to pause/resume.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="typing-area card">
+      <div class="progress-wrapper" aria-hidden="true">
+        <div id="time-progress" class="progress-bar"></div>
+      </div>
+
+      <div id="display-text" class="display-text" aria-label="Text to type" aria-live="polite"></div>
+
+      <div class="editor">
+        <textarea
+          id="text-input"
+          class="text-input"
+          rows="4"
+          placeholder="Start typing here..."
+          aria-label="Typing input"
+          disabled
+        ></textarea>
+        <div class="editor-actions">
+          <button id="start-button" class="btn btn-primary">Start Test</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-grid">
+      <div class="card stat">
+        <div class="stat-label">Time</div>
+        <div class="stat-value"><span id="timer">00:00</span></div>
+      </div>
+      <div class="card stat">
+        <div class="stat-label">WPM</div>
+        <div class="stat-value"><span id="wpm">0</span></div>
+        <div class="stat-sub">Words per minute</div>
+      </div>
+      <div class="card stat">
+        <div class="stat-label">Accuracy</div>
+        <div class="stat-value"><span id="accuracy">100%</span></div>
+        <div class="stat-sub">Correct / Typed</div>
+      </div>
+      <div class="card stat">
+        <div class="stat-label">Errors</div>
+        <div class="stat-value"><span id="errors">0</span></div>
+      </div>
+      <div class="card stat">
+        <div class="stat-label">CPM</div>
+        <div class="stat-value"><span id="cpm">0</span></div>
+        <div class="stat-sub">Chars per minute</div>
+      </div>
+      <div class="card stat">
+        <div class="stat-label">Best WPM</div>
+        <div class="stat-value"><span id="best-wpm">0</span></div>
+        <div class="stat-sub">All time (this device)</div>
+      </div>
+    </section>
+
+    <section id="message-box" class="card message" role="status" aria-live="polite">
+      Ready. Choose duration and source, then press Start or hit Enter to begin.
+    </section>
+
+    <section class="card history">
+      <div class="history-header">
+        <h2>Recent Results</h2>
+        <button id="clear-history-button" class="btn btn-ghost" aria-label="Clear history">Clear</button>
+      </div>
+      <ul id="history-list" class="history-list" aria-label="Recent results"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>Made in India</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
