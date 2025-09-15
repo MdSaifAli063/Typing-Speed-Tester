@@ -81,13 +81,13 @@ Notes:
 ---
 ## 🎛️ Customization
 
-# Change the Background Gradient
-
+### Change the Background Gradient
 In `style.css`, ensure the body background is set (towards the end of the file to override earlier rules):
-css
+```css
 body {
   background: linear-gradient(to right, #3b82f6, #6366f1, #db2777);
 }
+
 
 Adjust Theme Surfaces and Text
 Use the CSS variables at the top of style.css to tweak surface transparency, borders, and focus rings.
@@ -114,8 +114,8 @@ const TEXT_BANK = {
 
 Change Duration Options
 Edit the <select id="duration-select"> options in index.html.
----
-## ⌨️ Keyboard Shortcuts
+
+⌨️ Keyboard Shortcuts
 
 Enter: Start test (when idle/finished)
 Escape: Reset test
@@ -123,8 +123,8 @@ Space:
 Toggles Pause/Resume only if the input is not focused
 Types a space when the input is focused
 Tip: Click anywhere in the typing area to refocus the input while running.
----
-## 🧪 Scoring Details
+
+🧪 Scoring Details
 
 WPM = (correct characters / 5) / minutes
 CPM = correct characters / minutes
@@ -132,15 +132,15 @@ Accuracy = correct / typed × 100
 Errors = total incorrect characters typed
 Best WPM is stored in localStorage under typing-best-wpm
 History is stored in localStorage under typing-history (max 15 recent results)
----
-## 🛠️ Development Notes
+
+🛠️ Development Notes
 
 Plain HTML/CSS/JS—no build step required
 Uses requestAnimation-friendly timers (setInterval) for 100ms updates
 Respects prefers-reduced-motion for users who opt out of animations
 Focus-visible outlines and clear states for keyboard users
----
-## 🐞 Troubleshooting
+
+🐞 Troubleshooting
 
 Gradient not showing?
 Make sure your gradient body rule is last in style.css, or remove earlier body background rules.
@@ -148,15 +148,17 @@ History not saving?
 Ensure your browser allows localStorage (not in private mode) and JavaScript is enabled.
 Space pauses when typing?
 This project is configured so Space inside the input types a space; Space outside the input toggles pause/resume.
----
-## 📄 License
+
+Typing View
+Results & History
+
+📄 License
 
 MIT License — feel free to use, modify, and share.
----
-## 🙌 Acknowledgements
+
+🙌 Acknowledgements
 
 Fonts: Inter + JetBrains Mono (Google Fonts)
 Pangrams and quotes collected from public sources
 Icons and badges via emojis and shields.io
 Happy typing! 🎉
----
