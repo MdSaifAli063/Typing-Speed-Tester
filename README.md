@@ -48,7 +48,8 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
 ---
 
 ## 📸 Screenshots
-You can add screenshots to the assets/ folder and reference them here:
+
+![image](https://github.com/MdSaifAli063/Typing-Speed-Tester/blob/09de04acac423f02754d8001d494f5d0d5ca796e/Screenshot%202025-09-16%20012301.png)
 
 Typing View
 Results & History
