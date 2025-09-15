@@ -78,7 +78,7 @@ Notes:
   - When typing in the input, Space inserts a space normally
   - When the input is NOT focused, Space toggles Pause/Resume
 
-
+---
 ## 🎛️ Customization
 
 ### Change the Background Gradient
@@ -114,7 +114,7 @@ const TEXT_BANK = {
 
 Change Duration Options
 Edit the <select id="duration-select"> options in index.html.
-
+---
 ## ⌨️ Keyboard Shortcuts
 
 Enter: Start test (when idle/finished)
@@ -123,7 +123,7 @@ Space:
 Toggles Pause/Resume only if the input is not focused
 Types a space when the input is focused
 Tip: Click anywhere in the typing area to refocus the input while running.
-
+---
 ## 🧪 Scoring Details
 
 WPM = (correct characters / 5) / minutes
@@ -132,14 +132,14 @@ Accuracy = correct / typed × 100
 Errors = total incorrect characters typed
 Best WPM is stored in localStorage under typing-best-wpm
 History is stored in localStorage under typing-history (max 15 recent results)
-
+---
 ## 🛠️ Development Notes
 
 Plain HTML/CSS/JS—no build step required
 Uses requestAnimation-friendly timers (setInterval) for 100ms updates
 Respects prefers-reduced-motion for users who opt out of animations
 Focus-visible outlines and clear states for keyboard users
-
+---
 ## 🐞 Troubleshooting
 
 Gradient not showing?
@@ -148,14 +148,15 @@ History not saving?
 Ensure your browser allows localStorage (not in private mode) and JavaScript is enabled.
 Space pauses when typing?
 This project is configured so Space inside the input types a space; Space outside the input toggles pause/resume.
-
+---
 ## 📄 License
 
 MIT License — feel free to use, modify, and share.
-
+---
 ## 🙌 Acknowledgements
 
 Fonts: Inter + JetBrains Mono (Google Fonts)
 Pangrams and quotes collected from public sources
 Icons and badges via emojis and shields.io
 Happy typing! 🎉
+---
