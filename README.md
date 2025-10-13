@@ -72,7 +72,6 @@ Notes:
   - When typing in the input, Space inserts a space normally
   - When the input is NOT focused, Space toggles Pause/Resume
 
----
 ## 🎛️ Customization
 
 ### Change the Background Gradient
