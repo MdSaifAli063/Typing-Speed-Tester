@@ -141,14 +141,13 @@ Tip: Click anywhere in the typing area to refocus the input while running.
 ## 🐞 Troubleshooting
 
 Gradient not showing?
-Make sure your gradient body rule is last in style.css, or remove earlier body background rules.
+- Make sure your gradient body rule is last in style.css, or remove earlier body background rules.
 History not saving?
-Ensure your browser allows localStorage (not in private mode) and JavaScript is enabled.
+- Ensure your browser allows localStorage (not in private mode) and JavaScript is enabled.
 Space pauses when typing?
-This project is configured so Space inside the input types a space; Space outside the input toggles pause/resume.
-
+- This project is configured so Space inside the input types a space; Space outside the input toggles pause/resume.
 Typing View
-Results & History
+- Results & History
 
 📄 License
 
