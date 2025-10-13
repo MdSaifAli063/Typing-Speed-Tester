@@ -162,4 +162,5 @@ MIT License — feel free to use, modify, and share.
 - Fonts: Inter + JetBrains Mono (Google Fonts)
 - Pangrams and quotes collected from public sources
 - Icons and badges via emojis and shields.io
+  
 Happy typing! 🎉
