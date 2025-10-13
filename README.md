@@ -33,7 +33,6 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
 - 📱 Fully responsive
 - ♿ Thoughtful focus states and reduced-motion support
 
----
 
 ## 🚀 Quick Start
 
