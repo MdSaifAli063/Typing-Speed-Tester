@@ -1,15 +1,14 @@
 # ⌨️ Typing Speed Tester
 
-<p align="center">
 A clean, responsive, and accessible typing speed tester that runs right in your browser. Track WPM, accuracy, CPM, and errors with a polished UI on top of a vibrant gradient background.
-  
+
+<p align="center">
   <a href="#"><img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white"></a>
   <a href="#"><img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white"></a>
   <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E"></a>
   <a href="#"><img alt="Responsive" src="https://img.shields.io/badge/Responsive-Yes-22c55e"></a>
   <a href="#"><img alt="A11y" src="https://img.shields.io/badge/Accessibility-A11y-8b5cf6"></a>
   <a href="#"><img alt="License" src="https://img.shields.io/badge/License-MIT-0ea5e9"></a>
-  
 </p>
 
 
