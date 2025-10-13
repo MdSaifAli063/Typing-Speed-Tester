@@ -113,9 +113,6 @@ const TEXT_BANK = {
 };
 ```
 
-Change Duration Options
-- Edit the <select id="duration-select"> options in index.html.
-
 ## ⌨️ Keyboard Shortcuts
 
 - Enter: Start test (when idle/finished)
