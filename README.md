@@ -94,7 +94,8 @@ Adjust Theme Surfaces and Text
 
 Edit/Extend Text Sources
 - In script.js, update the TEXT_BANK to add/remove phrases:
-  
+
+```bash
 const TEXT_BANK = {
   quotes: [
     "Simplicity is the soul of efficiency.",
@@ -110,7 +111,7 @@ const TEXT_BANK = {
     "Lorem ipsum dolor sit amet consectetur...",
   ],
 };
-
+```
 
 Change Duration Options
 Edit the <select id="duration-select"> options in index.html.
