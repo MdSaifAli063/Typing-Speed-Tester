@@ -120,6 +120,7 @@ const TEXT_BANK = {
 - Space:
 - Toggles Pause/Resume only if the input is not focused
 - Types a space when the input is focused
+  
 Tip: Click anywhere in the typing area to refocus the input while running.
 
 ## 🧪 Scoring Details
