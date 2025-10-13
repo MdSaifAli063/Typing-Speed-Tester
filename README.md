@@ -11,7 +11,6 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
   <a href="#"><img alt="License" src="https://img.shields.io/badge/License-MIT-0ea5e9"></a>
 </p>
 
----
 
 ## ✨ Features
 
