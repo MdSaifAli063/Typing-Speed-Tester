@@ -134,12 +134,12 @@ Tip: Click anywhere in the typing area to refocus the input while running.
 - Best WPM is stored in localStorage under typing-best-wpm
 - History is stored in localStorage under typing-history (max 15 recent results)
 
-🛠️ Development Notes
+## 🛠️ Development Notes
 
-Plain HTML/CSS/JS—no build step required
-Uses requestAnimation-friendly timers (setInterval) for 100ms updates
-Respects prefers-reduced-motion for users who opt out of animations
-Focus-visible outlines and clear states for keyboard users
+- Plain HTML/CSS/JS—no build step required
+- Uses requestAnimation-friendly timers (setInterval) for 100ms updates
+- Respects prefers-reduced-motion for users who opt out of animations
+- Focus-visible outlines and clear states for keyboard users
 
 🐞 Troubleshooting
 
