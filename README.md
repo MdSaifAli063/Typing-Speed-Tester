@@ -87,7 +87,7 @@ In `style.css`, ensure the body background is set (towards the end of the file t
 body {
   background: linear-gradient(to right, #3b82f6, #6366f1, #db2777);
 }
-
+```
 
 Adjust Theme Surfaces and Text
 Use the CSS variables at the top of style.css to tweak surface transparency, borders, and focus rings.
