@@ -58,8 +58,6 @@ Results & History
 . ├── index.html # UI markup ├── style.css # Theme, layout, and component styles ├── script.js # App logic, timing, scoring, history └── assets/ └── banner.png # Optional banner for README
 
 
----
-
 ## 🖱️ How to Use
 
 1. Choose Duration, Text Source, and Difficulty
