@@ -156,9 +156,9 @@ Typing View
 
 MIT License — feel free to use, modify, and share.
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 
-Fonts: Inter + JetBrains Mono (Google Fonts)
-Pangrams and quotes collected from public sources
-Icons and badges via emojis and shields.io
+- Fonts: Inter + JetBrains Mono (Google Fonts)
+- Pangrams and quotes collected from public sources
+- Icons and badges via emojis and shields.io
 Happy typing! 🎉
