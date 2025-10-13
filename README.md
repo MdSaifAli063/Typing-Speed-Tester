@@ -125,14 +125,14 @@ Change Duration Options
 - Types a space when the input is focused
 Tip: Click anywhere in the typing area to refocus the input while running.
 
-🧪 Scoring Details
+## 🧪 Scoring Details
 
-WPM = (correct characters / 5) / minutes
-CPM = correct characters / minutes
-Accuracy = correct / typed × 100
-Errors = total incorrect characters typed
-Best WPM is stored in localStorage under typing-best-wpm
-History is stored in localStorage under typing-history (max 15 recent results)
+- WPM = (correct characters / 5) / minutes
+- CPM = correct characters / minutes
+- Accuracy = correct / typed × 100
+- Errors = total incorrect characters typed
+- Best WPM is stored in localStorage under typing-best-wpm
+- History is stored in localStorage under typing-history (max 15 recent results)
 
 🛠️ Development Notes
 
