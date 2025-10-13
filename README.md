@@ -138,7 +138,7 @@ Tip: Click anywhere in the typing area to refocus the input while running.
 - Respects prefers-reduced-motion for users who opt out of animations
 - Focus-visible outlines and clear states for keyboard users
 
-🐞 Troubleshooting
+## 🐞 Troubleshooting
 
 Gradient not showing?
 Make sure your gradient body rule is last in style.css, or remove earlier body background rules.
