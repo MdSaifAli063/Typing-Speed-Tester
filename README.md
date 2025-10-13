@@ -90,11 +90,11 @@ body {
 ```
 
 Adjust Theme Surfaces and Text
-Use the CSS variables at the top of style.css to tweak surface transparency, borders, and focus rings.
+- Use the CSS variables at the top of style.css to tweak surface transparency, borders, and focus rings.
 
 Edit/Extend Text Sources
-In script.js, update the TEXT_BANK to add/remove phrases:
-
+- In script.js, update the TEXT_BANK to add/remove phrases:
+  
 const TEXT_BANK = {
   quotes: [
     "Simplicity is the soul of efficiency.",
