@@ -116,14 +116,13 @@ const TEXT_BANK = {
 Change Duration Options
 - Edit the <select id="duration-select"> options in index.html.
 
-
 ## ⌨️ Keyboard Shortcuts
 
-Enter: Start test (when idle/finished)
-Escape: Reset test
-Space:
-Toggles Pause/Resume only if the input is not focused
-Types a space when the input is focused
+- Enter: Start test (when idle/finished)
+- Escape: Reset test
+- Space:
+- Toggles Pause/Resume only if the input is not focused
+- Types a space when the input is focused
 Tip: Click anywhere in the typing area to refocus the input while running.
 
 🧪 Scoring Details
