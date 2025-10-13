@@ -43,7 +43,6 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
      - Node (http-server): `npx http-server -p 8000`
 3. Start typing! Press Enter to begin a test.
 
----
 
 ## 📸 Screenshots
 
