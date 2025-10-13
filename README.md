@@ -51,7 +51,6 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
 Typing View
 Results & History
 
----
 
 ## 🗂️ Project Structure
 
