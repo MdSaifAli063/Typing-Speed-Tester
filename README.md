@@ -15,7 +15,7 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
 ## ✨ Features
 
 - 🎨 Attractive, accessible UI on a gradient background  
-  Background: `linear-gradient(to right, #3b82f6, #6366f1, #db2777)`
+  - Background: `linear-gradient(to right, #3b82f6, #6366f1, #db2777)`
 - ⏱️ Adjustable Duration: 15s, 30s, 60s, 120s
 - 🧠 Text Sources: Quotes, Pangrams, Code-like, Lorem
 - 🧩 Difficulty Modes:
