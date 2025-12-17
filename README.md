@@ -54,7 +54,6 @@ Results & History
 
 ## 🗂️ Project Structure
 
-
 . ├── index.html # UI markup ├── style.css # Theme, layout, and component styles ├── script.js # App logic, timing, scoring, history └── assets/ └── banner.png # Optional banner for README
 
 
