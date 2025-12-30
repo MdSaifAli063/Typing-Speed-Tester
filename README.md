@@ -139,7 +139,7 @@ Uses requestAnimation-friendly timers (setInterval) for 100ms updates
 Respects prefers-reduced-motion for users who opt out of animations
 Focus-visible outlines and clear states for keyboard users
 
-##🐞 Troubleshooting
+## 🐞 Troubleshooting
 
 Gradient not showing?
 Make sure your gradient body rule is last in style.css, or remove earlier body background rules.
@@ -148,7 +148,7 @@ Ensure your browser allows localStorage (not in private mode) and JavaScript is 
 Space pauses when typing?
 This project is configured so Space inside the input types a space; Space outside the input toggles pause/resume.
 
-##📄 License
+## 📄 License
 
 MIT License — feel free to use, modify, and share.
 
