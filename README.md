@@ -46,7 +46,7 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
 
 ## 📸 Screenshots
 
-![image](https://github.com/MdSaifAli063/Typing-Speed-Tester/blob/09de04acac423f02754d8001d494f5d0d5ca796e/Screenshot%202025-09-16%20012301.png)
+![image](https://github.com/MdSaifAli063/Typing-Speed-Tester/blob/87bc86e756488f41a4d6473dae5340544e038fc7/Screenshot%202026-04-22%20212912.png)
 
 Typing View
 Results & History
