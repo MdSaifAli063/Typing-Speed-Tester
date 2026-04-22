@@ -1,7 +1,6 @@
 (() => {
   "use strict";
 
-  // DOM references
   const els = {
     displayText: document.getElementById("display-text"),
     textInput: document.getElementById("text-input"),
@@ -28,7 +27,6 @@
     historyList: document.getElementById("history-list"),
   };
 
-  // Sample texts categorized
   const TEXT_BANK = {
     quotes: [
       "Simplicity is the soul of efficiency.",
@@ -59,9 +57,8 @@
     ],
   };
 
-  // State
   const state = {
-    status: "idle", // idle | running | paused | finished
+    status: "idle", 
     durationSec: 30,
     startTimeMs: 0,
     elapsedMs: 0,
@@ -75,10 +72,9 @@
     correctChars: 0,
     errors: 0,
 
-    difficulty: "normal", // normal | hard (no backspace)
+    difficulty: "normal", 
   };
 
-  // LocalStorage keys
   const LS_KEYS = {
     BEST_WPM: "typing-best-wpm",
     HISTORY: "typing-history",
