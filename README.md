@@ -99,7 +99,6 @@ const TEXT_BANK = {
   ],
 };
 ```
-
 ## ⌨️ Keyboard Shortcuts
 
 - Enter: Start test (when idle/finished)
