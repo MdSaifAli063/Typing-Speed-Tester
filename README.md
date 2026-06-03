@@ -41,7 +41,6 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
      - Node (http-server): `npx http-server -p 8000`
 3. Start typing! Press Enter to begin a test.
 
-
 ## 📸 Screenshots
 
 ![image](https://github.com/MdSaifAli063/Typing-Speed-Tester/blob/87bc86e756488f41a4d6473dae5340544e038fc7/Screenshot%202026-04-22%20212912.png)
