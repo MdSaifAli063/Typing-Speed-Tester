@@ -48,7 +48,6 @@ A clean, responsive, and accessible typing speed tester that runs right in your 
 Typing View
 Results & History
 
-
 ## 🗂️ Project Structure
 
 . ├── index.html # UI markup ├── style.css # Theme, layout, and component styles ├── script.js # App logic, timing, scoring, history └── assets/ └── banner.png # Optional banner for README
