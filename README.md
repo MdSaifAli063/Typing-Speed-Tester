@@ -147,6 +147,7 @@ Typing View
 
 MIT License — feel free to use, modify, and share.
 
+
 ## 🙌 Acknowledgements
 
 - Fonts: Inter + JetBrains Mono (Google Fonts)
