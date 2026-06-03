@@ -119,6 +119,7 @@ Tip: Click anywhere in the typing area to refocus the input while running.
 - Best WPM is stored in localStorage under typing-best-wpm
 - History is stored in localStorage under typing-history (max 15 recent results)
 
+
 ## 🛠️ Development Notes
 
 - Plain HTML/CSS/JS—no build step required
