@@ -142,6 +142,7 @@ Space pauses when typing?
 Typing View
 - Results & History
 
+
 ## 📄 License
 
 MIT License — feel free to use, modify, and share.
