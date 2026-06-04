@@ -109,7 +109,6 @@ const TEXT_BANK = {
   
 Tip: Click anywhere in the typing area to refocus the input while running.
 
-
 ## 🧪 Scoring Details
 
 - WPM = (correct characters / 5) / minutes
